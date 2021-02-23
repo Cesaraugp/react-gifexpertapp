@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 export const AddCategory = ({ setCategorias }) => {
-  const [inputValue, setinputValue] = useState("HolaMundo");
+  const [inputValue, setinputValue] = useState(" ");
   const handleInputChange = (e) => {
     setinputValue(e.target.value);
   };
